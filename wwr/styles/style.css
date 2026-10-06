@@ -1,0 +1,149 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto; 
+    font-family: garamond;
+}
+
+header {
+    background-color: #7EA3CC;
+}
+
+nav a {
+    text-align: center;
+    color: #330F0A;
+    text-decoration: none;
+    font-family: Garamond;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #65743A;
+    color: #CCAD8F;
+}
+
+.book, .join {
+    background-color: #7EA3CC ;
+    color: #330F0A;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: #65743A;
+    color: #CCAD8F;
+}
+
+.home-title {
+    color: #330F0A;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #330F0A;
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+    font-family: Garamond
+}
+
+#background {
+    height: 725px;
+    background-color: #65743A
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.msg {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: #330F0A
+}
+
+.msg p {
+    color: #330F0A;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+   background-color: #7EA3CC;
+   color: #330F0A;
+   padding: 25px 50px;
+   margin-top: 200px;
+}
+
+footer a {
+    color: #330F0A;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #CCAD8F;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+.logo, .icon {
+    width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #7EA3CC;
+}
+
+main section img {
+    box-sizing: border-box;
+}
