@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Site</title>
+    <link type="text/css" rel="stylesheet" href="portal_site.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Isometra&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img id="hero" src="images/portal_backdrop.jpg" alt="backdrop design"/>
-        <h1>It's Screenager Time!!!</h1>
-        <audio controls autoplay>
-            <source src="images/Wrangle The Crazy - Everet Almond.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.    
-        </audio>
+            <h1>It's Screenager Time!!!</h1>
+            <audio controls autoplay>
+                <source src="images/Wrangle The Crazy - Everet Almond.mp3" type="audio/mpeg">
+                 Your browser does not support the audio element.    
+            </audio>
     </header>
     <nav> <!--add links-->
         <a href="#">Home</a>
@@ -22,17 +26,17 @@
 
     </nav>
     <main class="projects">
-        <section class="project one">
+        <section class="project_one">
             <img class="icon" src="images/star_icon.jpg" alt="star icon">
             <h3>Project One</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium fugiat quis incidunt ipsum omnis, laudantium assumenda earum eos aut. Ex laudantium accusamus, et sed deleniti facilis voluptates excepturi aut recusandae!</p>
         </section>
-        <section class="project two">
+        <section class="project_two">
             <img class="icon" src="images/planet_icon.png" alt="planet icon">
             <h3>Project Two</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo inventore, aspernatur necessitatibus fugit cum corrupti cumque iste quo, in facere et blanditiis natus possimus nisi ab, nesciunt nemo! Quaerat, asperiores?</p>
         </section>
-        <section class="project three">
+        <section class="project_three">
             <img class="icon" src="images/shooting_star_icon.png" alt="shooting star icon">
             <h3>Project Three</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ab ratione rem cumque magni nisi minus laudantium et repellat iusto nulla, iste provident eaque quos inventore sit vitae sunt aperiam.</p>
@@ -55,7 +59,7 @@
         </tr>
     </table> 
     <div id="list">
-        <img src="images/portal_backdrop.jpg" alt="list background"/>
+        <img id="list_background" src="images/portal_backdrop.jpg" alt="list background"/>
         <dl>
             <dt>Project 1</dt>
              <dd>+ description Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -68,12 +72,14 @@
         </dl>
     </div>
     <div id="name_form">
-        <img src="images/Logo_Thumbnail_WDD_Final.jpg" alt="Logo"/>
+        <img id="logo" src="images/Logo_Thumbnail_WDD_Final.jpg" alt="Logo"/>
         <h2>Get In Touch</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laboriosam atque veritatis harum quisquam odio saepe, eligendi, quod fugiat voluptatem assumenda possimus qui molestias, illum ducimus. Ex mollitia error amet?</p>
+        <p>Want the fae to own you? Give me your full legal name and I will tell it to the first fae I see so that they will personally own your soul! yippee!!!</p>
         <form>
-            <label for="fname">First and Last name:</label><br>
+            <label for="fname">First and Last name:</label>
             <input type="text" id="fname" name="fname"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
             <input type="submit" value="Submit">
         </form>
     </div>
@@ -83,7 +89,8 @@
         <a href="#">About Me</a>
         <a href="#">ICE</a>
         <a href="#">WRR</a>
-        <p>Portal Site &copy; 2026 - Ellie McCready</p>
     </footer>
+    <p id="legal">Portal Site &copy; 2026 - Ellie McCready</p>
+
 </body>
 </html>

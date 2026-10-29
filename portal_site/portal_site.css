@@ -1,0 +1,160 @@
+body {
+    max-width: 1600px;
+    margin: auto;
+    background-color: #2b2940;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 0fr;
+    margin-top: -100px;
+}
+
+#hero {
+    width: 100%;
+    height: 850px;
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+
+h1 {
+    font-family: "Press Start 2P", system-ui;
+    color: #f6ff79;
+    text-align: center;
+    margin-top: auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+audio {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 0 auto
+}
+
+#list_background {
+    width: 300px
+}
+
+#logo {
+    width: 300px
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #f6ff79;
+    text-decoration: none;
+    width: 100%;
+    padding: 35px;
+    border-right: 1px solid #eedeff;
+    border-left: 1px solid #eedeff;
+    text-align: center;
+
+}
+
+nav a:hover {
+    background-color: #eedeff;
+    color: #2b2940;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: "Pixelify Sans", sans-serif;
+    padding: 50px;
+    color: #73fff3;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.project_one, .project_two, .project_three {
+    padding: 40px;
+}
+
+.icon {
+    width: 100px;
+    filter: invert(100%);
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: solid #eedeff 3px;
+    color: #73fff3;
+    font-family: "Pixelify Sans", sans-serif;
+    padding-right: 50px;
+}
+
+
+
+#logo {
+    width: 170px;
+}
+
+#name_form {
+    text-align: center;
+    margin: auto;
+    padding: 80px;
+    color: #73fff3;
+}
+
+#name_form h2{
+    font-family: "Press Start 2P", system-ui;
+}
+
+#name_form p{
+    font-family: "Pixelify Sans", sans-serif;
+    width: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+form {
+    font-family: "Pixelify Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    padding-left: 40px;
+}
+
+input {
+    margin-left: 10px;
+
+}
+
+footer {
+    background-color: #2b2940;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    font-family: "Pixelify Sans", sans-serif;
+    color: #f6ff79;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px;
+    border-right: 1px solid #eedeff;
+    border-left: 1px solid #eedeff;
+    text-align: center;
+}
+
+footer a:hover {
+    background-color: #eedeff;
+    color: #2b2940;
+}
+
+#legal {
+    text-align: center;
+    color: #f6ff79;
+    font-family: "Pixelify Sans", sans-serif;
+    padding: 20px;
+}
