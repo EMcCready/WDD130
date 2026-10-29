@@ -33,9 +33,7 @@ audio {
     margin: 0 auto
 }
 
-#list_background {
-    width: 300px
-}
+
 
 #logo {
     width: 300px
@@ -83,14 +81,27 @@ nav a:hover {
     filter: invert(100%);
 }
 
+
+#middle {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
 table, th, td {
     border-collapse: collapse;
     border: solid #eedeff 3px;
     color: #73fff3;
     font-family: "Pixelify Sans", sans-serif;
     padding-right: 50px;
+    width: 50%;
 }
 
+#list {
+    color: #73fff3;
+    font-family: "Pixelify Sans", sans-serif;
+    width: 500px;
+}
 
 
 #logo {
