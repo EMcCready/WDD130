@@ -72,8 +72,18 @@ h3 {
 }
 
 .favorite {
-    margin: auto;
     width: 500px;
+    padding-left: 500px;
+}
+
+#james_fav {
+    width: 900px;
+    padding-left: 300px;
+}
+
+.profile {
+    width: 200px;
+    float: left;
 }
 
 .c_gallery {
